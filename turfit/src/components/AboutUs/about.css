@@ -1,0 +1,20 @@
+.about-image {
+  width: 40vw;
+  height: 40vh;
+}
+
+.about-para {
+  width: 50vw;
+  height: 40vh;
+}
+.aboutusback{
+  height: fit-content;
+  background-image: url("./aboutus-back.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.about{
+  background-color: rgba(12,13,13,0.8);
+  padding-top: 3px;
+  color: lightgoldenrodyellow;
+}

@@ -1,0 +1,50 @@
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+  background-color: inherit;
+}
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  border-color: #fff;
+}
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+#navbarNav {
+  padding-left: 40vw;
+}
+a {
+  color: white;
+}
+.carousel-images {
+  height: 60vh;
+}
+.carousel-companies {
+  height: 10vh;
+}
+.about_us_image {
+  height: 40vh;
+  width: 40vw;
+}
+.container {
+  align-items: center;
+  justify-content: center;
+}
+.gallery_images {
+  width: 300px;
+  height: 250px;
+}
+.question-asked {
+  font-weight: bold;
+  display: block;
+}
+.booking-box {
+  border: 5px outset grey;
+  width: 60vw;
+  align-items: center;
+}

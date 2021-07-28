@@ -1,0 +1,23 @@
+.article {
+  display: block;
+  margin: 1rem;
+}
+.article-query {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 3px;
+  font-weight: bold;
+  color: limegreen;
+
+}
+.article-answer{
+  color: white;
+}
+.FAQ-container {
+  width: fit-content;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: black;
+}
