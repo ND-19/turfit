@@ -1,0 +1,25 @@
+{
+  "name": "turfit",
+  "version": "1.0.0",
+  "description": "- THis is for the Turfit project\r  - The Turfit folder contains the front-end **Changes are remaining to be made**\r  - The Turfit-server contains the backend which still needs to be connected to the cloud for access.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMMAR-62/turfit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMMAR-62/turfit/issues"
+  },
+  "homepage": "https://github.com/AMMAR-62/turfit#readme"
+}
