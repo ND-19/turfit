@@ -5,7 +5,6 @@ import {
   MDBCol,
   MDBRow,
   MDBTypography,
-  MDBIframe,
 } from "mdb-react-ui-kit";
 export default function AboutUs() {
   return (

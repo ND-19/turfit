@@ -9,7 +9,7 @@ const FooterPage = () => {
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol size="12" md="4" >
-            <img className="image" src={logoturf} style={{width:"10vw"}}/>
+            <img className="image" src={logoturf} style={{width:"10vw"}} alt="logo"/>
             <MDBTypography variant="h6" style={{ marginLeft: "2rem" }}>
           <p className="text-start lh-md">TurF-it is a sports infrastructure and development company that builds,
           owns and operates sports facilities for grassroots development of
@@ -57,7 +57,7 @@ const FooterPage = () => {
       </MDBContainer>
       <div className="footer-copyright text-center py-3 ">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="#"> TurFit.com </a>
+          &copy; {new Date().getFullYear()} Copyright: <a href="com.example.com"> TurFit.com </a>
         </MDBContainer>
       </div>
     </MDBFooter>

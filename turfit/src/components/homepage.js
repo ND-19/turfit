@@ -5,7 +5,6 @@ import Gallery from "./Gallery/Gallery";
 import AboutUs from "./AboutUs/aboutUs";
 import FAQ from "./FAQ";
 import Pricing from "./Pricing/pricing";
-import Footer from "./footer"
 export default function homepage() {
   return (
     <div style={{paddingTop:"51px"}}>
