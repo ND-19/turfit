@@ -1,10 +1,9 @@
 import React from 'react';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './authentication.css';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "./login";
 import SignUp from "./signup";
-import logoturfit from "../../resources/images/logoturfit.png";
 function Form() {
   return (<Router>
     <div className="Form">

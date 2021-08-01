@@ -1,12 +1,9 @@
-import React, { useState ,Component} from "react";
+import React from "react";
 import "./Navbar.css";
 import logoturf from "../resources/images/logoturfit.png";
-import {Navbar, Nav, Container, Row, Col} from "react-bootstrap";
+import {Navbar, Nav, Container} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
   NavLink
 } from "react-router-dom";
 export default function NavBar(){
@@ -14,7 +11,7 @@ export default function NavBar(){
   return (
     <Navbar expand="lg" light style={{padding:"0px", position:"fixed", width:"100%", zIndex:1}}>
       <Container fluid style={{background: "#444444"}}>
-    <Navbar.Brand href="/"><img src={logoturf} style={{width:"6vw"}}/></Navbar.Brand>
+    <Navbar.Brand href="/"><img src={logoturf} style={{width:"6vw"} } alt="turf-logo"/></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
