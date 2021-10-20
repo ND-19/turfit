@@ -4,7 +4,10 @@ import Homepage from "./components/homepage";
 import Form from './components/Signup and Login/signupandlogin';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavBar from './components/NavBar';
-import Footer from "./components/footer"
+import Footer from "./components/footer";
+import Booking from './components/Booking/booking';
+import Pricing from './components/Pricing/pricing';
+import Contact from './components/ContactUs/contact';
 function App() {
   return (
     <Router>
@@ -15,6 +18,9 @@ function App() {
            <Route exact path="/" component={Homepage}/>
              <Route exact path="/home" component={Homepage}/>
              <Route exact path="/login" component={Form}/>
+             <Route exact path="/booknow" component={Booking}/>
+             <Route exact path="/pricing" component={Pricing}/>
+             <Route exact path="/contactus" component={Contact}/>
            </Switch>
       {/* <Booking></Booking>
       <Homepage></Homepage> */}
